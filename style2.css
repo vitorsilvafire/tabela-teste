@@ -10,7 +10,7 @@ body, html {
   .content {
     padding: 50px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #616df9;
   }
   
   /* A classe parallax cria o efeito de fundo */
@@ -29,3 +29,18 @@ body, html {
       background-attachment: scroll; /* Ajuste para dispositivos móveis */
     }
   }
+  .meubotao2 {
+    display: inline-block;
+    background-color: #050612; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Tamanho do botão */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mãozinha */
+}
+
+  .meubotao2:hover {
+    background-color: #ff0000; /* Muda a cor quando o mouse passa sobre o botão */
+}
